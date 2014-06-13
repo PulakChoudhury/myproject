@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Adapt/mailactivation/activation.jar"/>
+	<classpathentry kind="lib" path="D:/Adapt/mailactivation/mail.jar"/>
+	<classpathentry kind="lib" path="D:/study materials/j2ee programming/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/study materials/j2ee programming/json-rpc-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/study materials/j2ee programming/jackson-mapper-asl-0.9.9-6.jar.zip"/>
+	<classpathentry kind="lib" path="D:/study materials/j2ee programming/jackson-mapper-asl-1.0.0.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

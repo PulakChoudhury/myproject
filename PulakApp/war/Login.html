@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<title>Pulak's online Strore</title>
+
+<script type="text/javascript">
+ function valid()
+    {
+
+	if((document.myapp.user.value=="") && (document.myapp.pass.value==""))
+	{
+
+	document.getElementById("err").innerHTML="please enter user name or password";
+
+	return true;
+    }
+    }
+</script>
+
+</head>
+<body id="loginbody">
+<img src="http://www.marvelltech.com/images/login_header.jpg"/>
+<form name="myapp" action="pulakapp" method="post" onsubmit="return(valid());">
+
+<center><table id="logintable">
+<tr>
+<td rowspan=4><img src="log.jpg"/></td><td>     User: </td><td><input type="text" name="user"/></td>
+</tr>
+<tr>
+<td>    Password: </td><td><input type="password" name="pass"/></td>
+</tr>
+<tr>
+<td colspan=2><p id="err">
+</td>
+</tr>
+<tr>
+<td colspan=2><center><input type="submit" value="" style="background: url(http://milo.handipoints.com/img/login_v2/login_button_normal.png); width:220px; height:70px;"/></center></td>
+</tr>
+<tr>
+<td colspan=3><center><a href="registration.jsp" style="font-size:15px;">Not Yet Registered? Click here</a></center></td>
+</tr>
+</table>
+</center>
+</form>
+
+</body>
+</html>
