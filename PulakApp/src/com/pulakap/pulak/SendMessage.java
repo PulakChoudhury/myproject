@@ -25,11 +25,11 @@ public class SendMessage extends HttpServlet {
 	
 		
 
-		String email = "pulak.pijush@a-cti.com"; //http://www.indyarocks.com/ 
+		String email = "pulak.pijush@a-cti.com"; 
 		String user = "Pulakdj89";    
 		String pass = "sbu11smc";
-		String number ="8939263911"; //no on which sms is to be send   
-		String msg = "hello pulak";//message to be send
+		String number ="8939263911";   
+		String msg = "hello pulak";
 		try{
 		       try {
 		                String mURL;
