@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>PulakApp</servlet-name>
+		<servlet-class>com.pulakap.pulak.PulakAppServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Registration</servlet-name>
+		<servlet-class>com.pulakap.pulak.Registration</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>RetrieveData</servlet-name>
+		<servlet-class>com.pulakap.pulak.RetrieveData</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ResourceData</servlet-name>
+		<servlet-class>com.pulakap.pulak.ResourceData</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ResourceKeyword</servlet-name>
+		<servlet-class>com.pulakap.pulak.ResourceKeyword</servlet-class>
+	</servlet>
+		<servlet>
+		<servlet-name>SendMessage</servlet-name>
+		<servlet-class>com.pulakap.pulak.SendMessage</servlet-class>
+	</servlet>
+		<servlet>
+		<servlet-name>SendEmail</servlet-name>
+		<servlet-class>com.pulakap.pulak.SendEmail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PulakApp</servlet-name>
+		<url-pattern>/pulakapp</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Registration</servlet-name>
+		<url-pattern>/registration</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RetrieveData</servlet-name>
+		<url-pattern>/retrievedata</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ResourceData</servlet-name>
+		<url-pattern>/resourcedata</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ResourceKeyword</servlet-name>
+		<url-pattern>/resourcekeyword</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SendMessage</servlet-name>
+		<url-pattern>/sendmessage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SendEmail</servlet-name>
+		<url-pattern>/sendemail</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>Login.html</welcome-file>
+	</welcome-file-list>
+</web-app>
